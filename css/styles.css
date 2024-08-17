@@ -3,9 +3,9 @@
   font-weight: 600;
   font-size: 40px;
 
-  margin: auto;
+  /* margin: auto;
   width: 1920px;
-  height: 1080px;
+  height: 1080px; */
   
    background-color: #fff;
   text-align: center;
@@ -65,42 +65,55 @@
 
 .inf_section{
   width: 1250px;
+  /* height: 1080px; */
   padding: 50px;
   background-color: #fff;
+  box-shadow: 2px 2px 20px black;
 }
 .title__stationary{
   margin-top: 40px;
   font-size: 64px;
 }
 .text_inf__stationary{
+  text-align: left;
   margin-top: 50px;
   font-size: 32px;
 }
 
 
 .select_section{
+  position: fixed;
+  right: 50px;
+  top: 20px;
   margin: auto;
   overflow-y: scroll;
   scroll-behavior: initial;
   width: 496px;
-  height: 1080px;
+  height: 999px;
   font-size: 30px;
 }
 .list__stationary{
+  padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
 }
 .element__stationary{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   border-radius: 10px;
+  padding: 15px;
   width: 395px;
-  height: 288px;
+  height: 200px;
   background-color: #fff;
+
+  box-shadow: 2px 2px 10px black;
 }
 .text__stationary{
   margin-top: 10px;
-  font-size: 21px;
+  font-size: 35px;
 }
 
 .main__price{
