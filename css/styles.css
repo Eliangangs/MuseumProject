@@ -1,0 +1,131 @@
+.wrapper{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+
+  margin: auto;
+  width: 1920px;
+  height: 1080px;
+  
+   background-color: #fff;
+  text-align: center;
+}
+.back{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.box_img__start-screen{
+  padding-top: 150px;
+}
+.text__start-screen{
+  margin-top: 20px;
+  font-size: 64px;
+  color: #0C5EC1;
+}
+
+.list__main{
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1266px;
+  justify-content: space-between;
+  margin: auto;
+  gap: 94px;
+}
+.element__main{
+  width: 543px;
+  height: 400px;
+  background-color: #DFDFDF;
+  border-radius: 10px;
+}
+.text__main, .text40__main, .text48__main{
+  font-size: 64px;
+  margin-top: 46px;
+  color: #0C5EC1;
+}
+.text40__main{
+  font-size: 40px;
+}
+.text48__main{
+  font-size: 48px;
+}
+
+.box_image__poster{
+  background-color: #D2471C;
+  height: 1080px;
+}
+
+.main__stationary{
+  display: flex;
+  justify-content: space-between;
+  background: #DFDFDF;
+}
+
+.inf_section{
+  width: 1250px;
+  padding: 50px;
+  background-color: #fff;
+}
+.title__stationary{
+  margin-top: 40px;
+  font-size: 64px;
+}
+.text_inf__stationary{
+  margin-top: 50px;
+  font-size: 32px;
+}
+
+
+.select_section{
+  margin: auto;
+  overflow-y: scroll;
+  scroll-behavior: initial;
+  width: 496px;
+  height: 1080px;
+  font-size: 30px;
+}
+.list__stationary{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.element__stationary{
+  margin: auto;
+  border-radius: 10px;
+  width: 395px;
+  height: 288px;
+  background-color: #fff;
+}
+.text__stationary{
+  margin-top: 10px;
+  font-size: 21px;
+}
+
+.main__price{
+  padding: 20px 200px;
+  text-align: left;
+}
+.title__price{
+  text-align: center;
+  font-size: 64px;
+  margin: 20px;
+}
+.subtitle{
+  font-size: 48px;
+  margin: 30px 0;
+}
+.text__price, .element__price{
+  font-weight: 400;
+  font-size: 40px;
+  margin: 20px 60px;
+}
+.block__price{
+  background-color: #DFDFDF;
+  padding: 15px;
+  border-radius: 10px;
+}
+.element__price{
+  color: #0C5EC1;
+}
