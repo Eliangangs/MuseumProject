@@ -87,20 +87,27 @@
   font-size: 30px;
 }
 .list__stationary{
+  padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
 }
 .element__stationary{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   border-radius: 10px;
+  padding: 15px;
   width: 395px;
   height: 288px;
   background-color: #fff;
+
+  box-shadow: 2px 2px 10px black;
 }
 .text__stationary{
   margin-top: 10px;
-  font-size: 21px;
+  font-size: 35px;
 }
 
 .main__price{
