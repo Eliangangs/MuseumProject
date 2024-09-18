@@ -67,7 +67,7 @@
   width: 1250px;
   /* height: 1080px; */
   padding: 50px;
-  background-color: #fff;
+  background-color: #FFC42A;
   box-shadow: 2px 2px 20px black;
 }
 .title__stationary{
@@ -94,6 +94,7 @@
   overflow-x: hidden;
 }
 .list__stationary{
+  margin-left: 20px;
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
