@@ -67,7 +67,7 @@
   width: 1250px;
   /* height: 1080px; */
   padding: 50px;
-  background-color: #fff;
+  background-color: #FFC42A;
   box-shadow: 2px 2px 20px black;
 }
 .title__stationary{
@@ -91,8 +91,10 @@
   width: 496px;
   height: 999px;
   font-size: 30px;
+  overflow-x: hidden;
 }
 .list__stationary{
+  margin-left: 20px;
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
@@ -111,11 +113,6 @@
 
   box-shadow: 2px 2px 10px black;
 }
-.text__stationary{
-  margin-top: 10px;
-  font-size: 35px;
-}
-
 .main__price{
   padding: 20px 200px;
   text-align: left;
